@@ -67,6 +67,11 @@ int main(){
  
         float b;
         cin>>b;
+
+        if(c=='>'){
+            b=-1*b;                 //changed sign of b if constraint is >=
+        }                                
+
         temp.push_back(b);             //added b value (1)
         constraints.push_back(temp);
     }
